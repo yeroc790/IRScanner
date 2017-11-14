@@ -21,7 +21,7 @@
 					unset($_POST['toggle']);
 				}
 				
-				$fp = fsockopen("tcp://10.253.108.46", 51717, $errno, $errstr, 30);
+				$fp = fsockopen("tcp://127.0.0.1", 51717, $errno, $errstr, 30);
 			    if (!$fp) {
 					echo "$errstr ($errno)<br />\n";
 			    } else {
