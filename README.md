@@ -10,6 +10,7 @@ This project is code for a remote control to send IR signals.
 <ul>
 	<li>Web Server Communication - http://www.linuxhowtos.org/C_C++/socket.htm</li>
 	<li>GPIO Library - http://wiringpi.com/</li>
+	<li>WiringPi Pinout Guide - https://projects.drogon.net/raspberry-pi/wiringpi/pins/</i>
 	<li>IR Signal Generator - http://www.eevblog.com/2013/08/12/eevblog-506-ir-remote-control-arduino-protocol-tutorial/</li>
 </ul>
 <hr>
