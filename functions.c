@@ -13,7 +13,7 @@
 #define IRLEDpin  2              //the arduino pin connected to IR LED to ground. HIGH=LED ON
 #define OnButtonPin 3
 #define OffButtonPin 4
-#define ToggleButtonPin 5
+#define ToggleButtonPin 5 
 #define BITtime   562           //length of the carrier bit in microseconds
 #define LEDpin 0
 #define socketPort 51717
