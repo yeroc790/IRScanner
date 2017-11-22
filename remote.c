@@ -6,8 +6,11 @@ int main () {
 	pinMode(LEDpin, OUTPUT);
 	digitalWrite(LEDpin, LOW);
 	
-	pinMode(ToggleButtonPin, INPUT);
-	pullUpDnControl(ToggleButtonPin, PUD_UP);
+	pinMode(OnButtonPin, INPUT);
+	pullUpDnControl(OnButtonPin, PUD_UP);
+	
+	pinMode(OffButtonPin, INPUT);
+	pullUpDnControl(OffButtonPin, PUD_UP);
 	
 	while(1) {
 		/* READ INPUT STATES */
