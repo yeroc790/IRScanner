@@ -6,6 +6,14 @@ This project is code for a remote control to send IR signals.
   <li>main.c	- Produces an IR signal based on input from either the web or physical buttons</li>
 </ul>
 <hr>
+<h3>Compiling</h3>
+<ul>
+	<li>Geany: gcc -Wall -o "%e" "%f" - lwiringPi</li>
+	<li>Terminal: gcc -Wall -o [objectName] [fileName] -lwiringPi</li>
+</ul>
+<hr>
+<h3>Web Server</h3>
+<p>Move index.php to the webserver directory<br>The current webaddress is tv-remote.lab.southwesternadventist.edu</p>
 <h3>Resources</h3>
 <ul>
 	<li>Web Server Communication - http://www.linuxhowtos.org/C_C++/socket.htm</li>
