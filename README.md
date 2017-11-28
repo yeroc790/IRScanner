@@ -2,8 +2,10 @@
 This project is code for a remote control to send IR signals.
 <br><br>
 <ul>
-  <li>index.php - Web page with buttons that interface with the pi</li>
-  <li>main.c	- Produces an IR signal based on input from either the web or physical buttons</li>
+  	<li>index.php 	- Web page with buttons that interface with the pi</li>
+  	<li>remote.c	- Provides functionality for on/off buttons</li>
+	<li>server.c 	- Creates a socket on localhost for index.php to connect to</li>
+	<li>functions.c	- Contains functions and variable declarations</li>
 </ul>
 <hr>
 <h3>Compiling</h3>
