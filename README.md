@@ -14,6 +14,7 @@ This project is code for a remote control to send IR signals.
 <hr>
 <h3>Web Server</h3>
 <p>Move index.php to the webserver directory<br>The current webaddress is tv-remote.lab.southwesternadventist.edu</p>
+<hr>
 <h3>Resources</h3>
 <ul>
 	<li>Web Server Communication - http://www.linuxhowtos.org/C_C++/socket.htm</li>
