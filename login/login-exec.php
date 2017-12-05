@@ -66,7 +66,7 @@
 			session_regenerate_id();
 			$_SESSION['login'] = true;
 			session_write_close();
-			header("location: index.php");
+			header("location: ../index.php");
 			exit();
 		}else {
 			//Login failed
